@@ -10,6 +10,21 @@ body {
     height: 100%;
 }
 
+#about {
+    background-color: #1ECD6E;
+}
+
+#home_btn_main:hover, #home_btn_main:active, #home_btn_main:focus {
+    background: #1ECD6E;
+}
+
+
+#homepara {
+    font-family: 'Lato';
+    font-weight: 300;
+    text-align: justify;
+}
+
 #tl {
     font-family: 'Lato';
     font-weight: 300;
@@ -51,7 +66,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-family: 'Lato',Arial,sans-serif;
+    font-weight: 400;
 }
 
 p {
@@ -86,7 +102,7 @@ aside {
 }
 
 .navbar-default {
-    border-color: rgba(34,34,34,.05);
+    border: none;
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
@@ -132,6 +148,7 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
+        text-align: center;
         border-color: rgba(255,255,255,.3);
         background-color: transparent;
     }
@@ -349,9 +366,9 @@ header .header-content .header-content-inner p {
 }
 
 .btn-default {
-    border-color: #fff;
-    color: #222;
-    background-color: #fff;
+    border-color: white;
+    color: rgba(70,160,207,1);
+    background-color: white;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
