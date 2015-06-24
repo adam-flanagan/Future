@@ -1,0 +1,62 @@
+body {
+  font-family: 'Lato';
+}
+
+#about {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.subheading {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.intro-header {
+  background-color: #808080;
+  background: no-repeat center center;
+  background-attachment: scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin-bottom: 50px;
+
+}
+.intro-header .site-heading,
+.intro-header .post-heading,
+.intro-header .page-heading {
+  padding: 100px 0 50px;
+  color: white;
+}  
+
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: white;
+}
+
+.page-heading {
+  text-align: center;
+}
+
+p {
+  color: #888;
+  font-size: 17px;
+  font-weight: 100;
+}
+
+ul>li>a {
+  text-transform: uppercase;
+}
+
+.navbar-brand>span {
+   font-style: italic;
+   font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+  .subheading{
+    font-weight: 100;
+  }
